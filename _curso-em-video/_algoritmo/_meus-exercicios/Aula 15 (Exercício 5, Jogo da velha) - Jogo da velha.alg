@@ -60,7 +60,7 @@ inicio
       FIMSE
       SE (SC1 = 90) ENTAO
          LIMPATELA
-         ESCREVA("Parabéns o jogador com o [O] venceu!")
+         ESCREVAL("Parabéns o jogador com o [O] venceu!")
          R <- "FIM"
       FIMSE
       SE (SC2 = 30) ENTAO
