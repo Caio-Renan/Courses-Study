@@ -12,25 +12,24 @@ void ler_texto(char *buffer, int length) {
 }
 
 int main() {
-    int idade1, idade2;
-    double media;
+    double media, idade1, idade2;
     char nome1[50], nome2[50];
 
     printf("Dados da primeira pessoa: \n");
     printf("Nome: ");
     ler_texto(nome1, 50);
     printf("Idade: ");
-    scanf("%d", &idade1);
+    scanf("%lf", &idade1);
     printf("Dados da segunda pessoa: \n");
     printf("Nome: ");
     limpar_entrada();
     ler_texto(nome2, 50);
     printf("Idade: ");
-    scanf("%d", &idade2);
+    scanf("%lf", &idade2);
 
-    media = (idade1+idade2)/2;
+    media = (idade1+idade2) / 2;
 
-    printf("A idade media de %s", nome1," e %s", nome2," é de %.1lf\n", media);
+    printf("A idade media de %s e %s e de %.2lf.\n", nome1, nome2, media);
 
 return 0;
 }
