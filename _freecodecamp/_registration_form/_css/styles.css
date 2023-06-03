@@ -1,0 +1,72 @@
+body {
+    background-color: #3b3b4f;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    color: white;
+}
+
+#registrationForm {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+h1 + p {
+    margin-bottom: 40px;
+}
+
+h1, p:not(.select p), button {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    margin: 20px 15px;
+}
+label:not(.select label) {
+    display: inline-block;
+}
+
+input:not(.select input) {
+    background-color: black;
+    border: black;
+    width: 100%;
+    margin: 5px 0;
+    padding: 4px;
+}
+
+.select label {
+    display: block;
+    padding: 5px 0;
+}
+
+.select input {
+    margin: 0;
+
+}
+
+.select p {
+    display: inline;
+    margin-left: 10px;
+    padding: 0;
+}
+
+hr {
+    margin: 20px 30px;
+    height: 2px;
+}
+
+button {
+    display: block;
+    margin: 40px auto;
+    padding: 10px 100px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}

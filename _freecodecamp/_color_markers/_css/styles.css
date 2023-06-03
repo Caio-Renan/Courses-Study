@@ -1,0 +1,17 @@
+.marker {
+    height: 25px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.first {
+    background-color: red;
+}
+
+.second {
+    background-color: green;
+}
+
+.third {
+    background-color: green;
+}

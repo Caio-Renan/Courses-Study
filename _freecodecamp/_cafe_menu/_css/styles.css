@@ -1,0 +1,94 @@
+#menu {
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 28px;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+main, h1, th {
+    margin: 0;
+    padding: 0;
+}  
+
+th {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+body {
+    background-image: url(../_images/beans.jpg);
+    font-family: sans-serif;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;  
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-top: -25px;
+}
+
+.bottom {
+    margin-top: 25px;
+}
+
+a {
+    color: black;
+}
+
+footer {
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    font-size: 18px;
+}
+
+tr th:last-child {
+    float: right;
+}
+
+tr th:first-child {
+    float: left;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+

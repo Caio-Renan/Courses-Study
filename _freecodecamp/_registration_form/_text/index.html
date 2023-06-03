@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../_css/styles.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div id="registrationForm">
+        <h1>Registrarion Form</h1>
+        <p>Please fill out this form with required information</p>
+        <section>
+            <form action="localWhereTheDataShouldGo">
+                <fieldset>
+                    <label for="firstName">Enter Your First Name:</label>
+                    <input type="text" id="firstName" name="firstName" value="">
+                    <label for="lastName">Enter your Last Name</label>
+                    <input type="text" id="lastName" name="lastName" value="">
+                    <label for="email">Enter your Email:</label>
+                    <input type="email" id="email" name="email" value="">
+                    <label for="password">Create a New Password</label>
+                    <input type="password" id="password" name="passsword" value="">
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+        <section class="select">
+            <form action="localWhereTheDataShouldGo">
+                <fieldset>
+                    <label for="personal"><input type="radio" id="personal" name="accountType" checked><p>Personal Account</p></label>
+                    <label for="business"><input type="radio" id="business" name="accountType"><p>Business Account</p></label>
+                    <label for="terms"><input type="checkbox" id="terms" name="terms"><p>I accept the <span clas="underline">terms and conditions</span></p></label>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <form action="localWhereTheDataShouldGo">
+                <fieldset>
+                    <label for="profilePic">Upload a profile picture:</label>
+                    <input type="file" id="profilePic" name="profilePic">
+                    <label for="age">Input your age (years):</label>
+                    <input type="text" id="age" name="age">
+                    <label for="">How did you hear about us?</label>
+                    <!-- ?? -->
+                    <label for="">Provide bio:</label>
+                    <input type="text" id="bio" name="bio" placeholder="I like coding on the beach...">
+                </fieldset>
+            </form>
+        </section>
+        <button type="submit">Submit</button>
+    </div>
+    
+    
+    <!-- What I learned 
+        - If you wanna to select only one radio input, you shall put the same value inside the name attribute;
+
+    -->
+</body>
+</html>

@@ -11,9 +11,7 @@
         <section>
             <h2>Cat Photos</h2>
             <p>See more <a href="https://www.freecatphotoapp.com">cat photos</a> in our gallery.</p>
-            <figure>
-                <img src="../_images/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
-            </figure>
+            <a href="https://freecatphotoapp.com"><img src="../_images/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a>
         </section>
         <!-- After you should create your own file to use as the link above -->
         <section>
@@ -25,7 +23,7 @@
                 <li>lasagna</li>
             </ul>
             <figure>
-                <img src="../_images/lasagna.jpg" alt="lasagna photo"><br/>
+                <img src="../_images/lasagna.jpg" alt="A slice of lasagna on a plate."><br/>
                 <figcaption>Cats <em>love</em> lasagna.</figcaption>
             </figure>
             <h3>Top 3 things cats hate:</h3>
@@ -35,22 +33,29 @@
                 <li>other cats</li>
             </ol>
             <figure>
-                <img src="../_images/cats.jpg" alt="photo of 5 cats"><br/>
+                <img src="../_images/cats.jpg" alt="Five cats looking around a field."><br/>
                 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
             </figure>
         </section>
-        <form action="whereDataShouldBeSent">
-            <fieldset>
-                <legend>Is your cat an indoor or outdoor cat?</legend>
-                <label for=""><input type="radio" id="indoor" value="indoor" name="indoor-outdoor" checked>Indoor</label>
-                <label for=""><input type="radio" id="indoor" value="indoor" name="indoor-outdoor"></label>
-            </fieldset>
-            <fieldset>
-                <legend>What's your cat's personality?</legend>
-                <label for=""><input type="checkbox" value="loving" id="loving" name="loving"></label>
-            </fieldset>
-        </form>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="whereDataShouldBeSent">
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <label for=""><input type="radio" id="indoor" value="indoor" name="indoor-outdoor" checked>Indoor</label>
+                    <label for=""><input type="radio" id="outdoor" value="outdoor" name="indoor-outdoor">Outdoor</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your cat's personality?</legend>
+                    <label for=""><input type="checkbox" value="loving" id="loving" name="loving" checked>Loving</label>
+                    <label for=""><input type="checkbox" value="lazy" id="lazy" name="lazy">Lazy</label>
+                    <label for=""><input type="checkbox" value="energetic" id="energetic" name="energetic">Energetic</label>
+                </fieldset>
+                <input type="text" placeholder="cat photo URL">
+                <button type="submit">Submit</button>
+            </form>
+            <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+        </section>
     </main>
-    
 </body>
 </html>
