@@ -39,7 +39,7 @@
                     </select>
                 </label>
                 <p>Would you recommend freeCodeCamp to a friend?</p>
-                <fieldset>
+                <fieldset class="recommendation">
                     <label for="recommendation">
                         <input type="radio" id="yes" name="recommendation">
                         Definitely
@@ -63,43 +63,45 @@
                     </select>
                 </label>
                 <p>What would you like to see improved? (Check all that apply)</p>
-                <label for="tips">
-                    <input type="checkbox" id="front-end" name="tips"> Front-end Projects
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="back-end" name="tips"> Back-end Projects
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="data-visualization" name="tips"> Data Visualization
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="challenges" name="tips"> Challenges
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="open-source" name="tips"> Open Source Community
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="help-rooms" name="tips"> Gitter help rooms
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="videos" name="tips"> Videos
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="meetups" name="tips"> City Meetups
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="wiki" name="tips"> Wiki
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="forum" name="tips"> Forum
-                </label>
-                <label for="tips">
-                    <input type="checkbox" id="courses" name="tips"> Additional Courses
-                </label>
+                <fieldset class="tips">
+                    <label for="tips">
+                        <input type="checkbox" id="front-end" name="tips"> Front-end Projects
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="back-end" name="tips"> Back-end Projects
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="data-visualization" name="tips"> Data Visualization
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="challenges" name="tips"> Challenges
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="open-source" name="tips"> Open Source Community
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="help-rooms" name="tips"> Gitter help rooms
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="videos" name="tips"> Videos
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="meetups" name="tips"> City Meetups
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="wiki" name="tips"> Wiki
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="forum" name="tips"> Forum
+                    </label>
+                    <label for="tips">
+                        <input type="checkbox" id="courses" name="tips"> Additional Courses
+                    </label>
+                </fieldset>
                 <label for="comments">
                     Any comments or suggestions?
-                    <textarea name="comments" id="comments" cols="30" rows="10"
-                        placeholder="Enter your comment here"></textarea>
+                    <textarea name="comments" id="comments" cols="30" rows="4" wrap="soft"
+                        placeholder="Enter your comment here..."></textarea>
                 </label>
             </fieldset>
             <button type="submit">Submit</button>
