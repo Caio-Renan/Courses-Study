@@ -1,4 +1,4 @@
-#import <stdio.h>
+#include <stdio.h>
 
 void limpar_entrada() {
     char c;
@@ -10,30 +10,30 @@ int main() {
     double celsius, fahrenheit;
 
     printf("Voce vai digitar a temperatura em qual escala (C/F)? ");
-    limpar_entrada();
     scanf("%c", &escala);
 
-    while (escala != "c" || escala != "f") {
+    while (escala != 'C' && escala != 'F') {
         printf("Por gentileza, digite C ou F: ");
         limpar_entrada();
         scanf("%c", &escala);
-
     }
-    if (escala == "C") {
+
+    if (escala == 'C') {
         printf("Digite a temperatura em Celsius: ");
         scanf("%lf", &celsius);
 
-        fahrenheit = (celsius / 5/9) + 32;
+        fahrenheit = 1.8 * celsius + 32;
 
         printf("Temperatura equivalente em Fahrenheit: %.2lf\n", fahrenheit);
     }
+
     else {
         printf("Digite a temperatura em Fahrenheit: ");
         scanf("%lf", &fahrenheit);
 
-        celsius = 5/9 * (fahrenheit - 32);
+        celsius = (fahrenheit - 32) / 1.8 ;
 
-        printf("Temperatura equivalente em Fahrenheit: %2lf\n", celsius);
+        printf("Temperatura equivalente em Fahrenheit: %.2lf\n", celsius);
     }
 
     return 0;
