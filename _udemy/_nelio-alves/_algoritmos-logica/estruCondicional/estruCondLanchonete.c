@@ -6,6 +6,10 @@ int main() {
 
     printf("Codigo do produto comprado: ");
     scanf("%d", &codigo);
+    while (codigo > 5) {
+        printf("Por favor, digite um numero entre 1 e 5: ");
+        scanf("%d", &codigo);
+    }
     printf("Quantidade comprada: ");
     scanf("%d", &qtdeComprada);
     printf("\n");
@@ -18,7 +22,7 @@ int main() {
         total = qtdeComprada * 4.8;
     } else if (codigo == 4) {
         total = qtdeComprada * 8.9;
-    } else if (codigo == 5) {
+    } else {
         total = qtdeComprada * 7.32;
     }
 

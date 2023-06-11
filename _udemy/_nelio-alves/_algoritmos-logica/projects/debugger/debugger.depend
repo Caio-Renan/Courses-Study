@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1686434359 source:c:\mingw64\projects\debugger\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1686435224 source:c:\users\caior\documents\github\courses-study\_udemy\_nelio-alves\_algoritmos-logica\projects\debugger\main.c
+	<stdio.h>
+	<stdlib.h>
+
