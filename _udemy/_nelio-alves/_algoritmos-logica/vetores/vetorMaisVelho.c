@@ -5,13 +5,14 @@ int main() {
 
     printf("Quantas pessoas voce vai digitar? ");
     scanf("%d", &v);
-    printf("\n");
 
-    char nomeMaisVelha, vetNome[v][50];
+    char vetNome[v][50];
     int vetIdade[v];
+    char* nomeMaisVelha[50];
 
     for (i = 0; i < v; i++) {
         c++;
+        printf("\n");
         printf("Dados da %da pessoa: \n", c);
         printf("Nome: ");
         fseek(stdin, 0, SEEK_END);
@@ -20,11 +21,12 @@ int main() {
         scanf("%d", &vetIdade[i]);
         if (maiorIdade < vetIdade[i]) {
             maiorIdade = vetIdade[i];
-            nomeMaisVelha = vetNome[i];
+            nomeMaisVelha[50] = vetNome[i];
         }
     }
 
-    printf("PESSOA MAIS VELHA: %s (%d ANOS)", nomeMaisVelha, maiorIdade);
+    printf("\n");
+    printf("PESSOA MAIS VELHA: %s (%d ANOS)\n", nomeMaisVelha, maiorIdade);
 
     return 0;
 }
