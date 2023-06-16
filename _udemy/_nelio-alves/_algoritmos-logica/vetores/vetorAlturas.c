@@ -1,15 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-
-void limpar_entrada() {
-    char c;
-    while ((c = getchar()) != '\n' && c != EOF) {}
-}
-
-void ler_texto(char *buffer, int length) {
-    fgets(buffer, length, stdin);
-    strtok(buffer, "\n");
-}
 
 int main() {
     double somaAlt = 0, altMedia, porcMenor16, somaMenor16 = 0;
@@ -19,17 +8,15 @@ int main() {
     scanf("%d", &v);
 
     double vetIdade[v], vetAltura[v];
-    char vetNome[v], vetNome2;
+    char vetNome[v][50];
 
     for (i = 0; i < v; i++) {
         c = c + 1;
         printf("\n");
-        limpar_entrada();
-        printf("Dados da %d pessoa\n", c);
+        printf("Dados da %da pessoa:\n", c);
         printf("Nome: ");
-        limpar_entrada();
-        ler_texto(vetNome,i);
-        //printf("%s", vetNome);
+        fseek(stdin, 0, SEEK_END);
+        gets(vetNome[i]);
         printf("Idade: ");
         scanf("%lf", &vetIdade[i]);
         if (vetIdade[i] < 16) {
@@ -48,11 +35,9 @@ int main() {
     printf("Pessoas com menos de 16 anos: %.2lf%%\n", porcMenor16);
     for (i = 0; i < v; i++) {
         if (vetIdade[i] < 16) {
-            vetNome2 = vetNome[i];
-            printf("%s", vetNome2);
+            printf("%s\n", vetNome[i]);
         }
     }
-
 
     return 0;
 }
