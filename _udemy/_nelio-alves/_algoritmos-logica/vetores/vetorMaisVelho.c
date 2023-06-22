@@ -6,9 +6,8 @@ int main() {
     printf("Quantas pessoas voce vai digitar? ");
     scanf("%d", &v);
 
-    char vetNome[v][50];
+    char vetNome[v][50], nomeMaisVelha[v][50];
     int vetIdade[v];
-    char* nomeMaisVelha[50];
 
     for (i = 0; i < v; i++) {
         c++;
@@ -21,12 +20,12 @@ int main() {
         scanf("%d", &vetIdade[i]);
         if (maiorIdade < vetIdade[i]) {
             maiorIdade = vetIdade[i];
-            nomeMaisVelha[50] = vetNome[i];
+            strcpy(nomeMaisVelha[0], vetNome[i]);
         }
     }
 
     printf("\n");
-    printf("PESSOA MAIS VELHA: %s (%d ANOS)\n", nomeMaisVelha, maiorIdade);
+    printf("PESSOA MAIS VELHA: %s (%d ANOS)\n", nomeMaisVelha[0], maiorIdade);
 
     return 0;
 }

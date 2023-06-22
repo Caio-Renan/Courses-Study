@@ -4,7 +4,7 @@
 int main() {
     int senha, senhaConfirm;
 
-    printf("Digite a sua nova senha (somente números): ");
+    printf("Digite a sua nova senha (somente numeros): ");
     scanf("%d", &senha);
     printf("Confirme a sua nova senha: ");
     scanf("%d", &senhaConfirm);
