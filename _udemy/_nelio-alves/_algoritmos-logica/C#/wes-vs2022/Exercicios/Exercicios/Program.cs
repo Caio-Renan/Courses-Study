@@ -6,8 +6,150 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercicios {
-    class Comerciante {
+    class MatrizGeral {
         static void Main(string[] args) {
+            CultureInfo CI = CultureInfo.InvariantCulture;
+
+            int ordem, i, j, l, c;
+            double somaPositivos = 0;
+
+            Console.Write("Qual a ordem da matriz? ");
+            ordem = int.Parse(Console.ReadLine());
+            while (ordem > 10) {
+                Console.Write("Valor invalido, escolha um numero entre 1 e 10: ");
+                ordem = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("");
+
+            double[,] matriz = new double[ordem,ordem];
+
+            for (i = 0; i < ordem; i++) {
+                for (j = 0; j < ordem; j++) {
+                    Console.Write("Elementos [" + i + ", " + j + "]: ");
+                    matriz[i, j] = double.Parse(Console.ReadLine(), CI);
+                    if (matriz[i,j] > 0) {
+                        somaPositivos = somaPositivos + matriz[i,j];
+                    }
+                }
+            }
+
+            Console.WriteLine("");
+            Console.WriteLine("SOMA DOS POSITIVOS: "+ somaPositivos + "\n");
+            Console.Write("Escolha uma linha: ");
+            l = int.Parse(Console.ReadLine());
+            Console.Write("LINHA ESCOLHIDA: ");
+            for (j = 0; j < ordem; j++) {
+                Console.Write(matriz[l,j] + "  ");
+            }
+            Console.WriteLine("\n");
+            Console.Write("Escolha uma coluna: ");
+            c = int.Parse(Console.ReadLine());
+            Console.Write("COLUNA ESCOLHIDA: ");
+            for (i = 0; i < ordem; i++) {
+                Console.Write(matriz[i, c] + "  ");
+            }
+            Console.WriteLine("\n");
+            Console.Write("DIAGONAL PRINCIPAL: ");
+            for (i = 0; i < ordem; i++) {
+                for (j = 0; j < ordem; j++) {
+                    if (i == j) {
+                        Console.Write(matriz[i, j] + "  ");
+                    }
+                }
+            }
+            Console.WriteLine("\n");
+            Console.WriteLine("MATRIZ ALTERADA: ");
+            for (i = 0; i < ordem; i++) {
+                for (j = 0; j < ordem; j++) {
+                    if (matriz[i,j] < 0) {
+                        matriz[i,j] = Math.Pow(matriz[i,j], 2);
+                    }
+                    Console.Write(matriz[i, j] + "  ");
+                }
+                Console.WriteLine("");
+            }
+
+        }
+    }
+    class NegativosMatriz {
+        static void twentyOneth(string[] args) {
+            int l, c, i, j;
+
+            Console.Write("Qual a quantidade de linhas da matriz? ");
+            l = int.Parse(Console.ReadLine());
+            while (l > 10) {
+                Console.Write("Valor invalido, escolha um numero entre 1 e 10: ");
+                l = int.Parse(Console.ReadLine());
+            }
+            Console.Write("Qual a quantidade de colunas da matriz? ");
+            c = int.Parse(Console.ReadLine());
+            while (c > 10) {
+                Console.Write("Valor invalido, escolha um numero entre 1 e 10: ");
+                c = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("");
+
+            int[,] matriz = new int[l,c];
+
+            for (i = 0; i < l; i++) {
+                for (j = 0; j < c; j++) {
+                    Console.Write("Elemento [" + i +", " + j + "]: ");
+                    matriz[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+
+            Console.WriteLine("");
+            Console.WriteLine("VALORES NEGATIVOS: ");
+            for (i = 0; i < l; i++) {
+                for (j = 0; j < c; j++) {
+                    if (matriz[i,j] < 0) {
+                        Console.WriteLine(matriz[i,j]);
+                    }
+                }
+            }
+            Console.WriteLine("");
+        }
+    }
+    class DiagonalNegativos {
+        static void twentieth(string[] args) {
+            int c, l, ordem, qtdeNegativos = 0;
+
+            Console.Write("Qual a ordem da matriz? ");
+            ordem = int.Parse(Console.ReadLine());
+            while (ordem > 10) {
+                Console.Write("Valor invalido, escolha um numero entre 1 e 10: ");
+                ordem = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("");
+
+            int[,] matriz = new int[ordem, ordem] ;
+
+            for (l = 0; l < ordem; l++) {
+                for (c = 0; c < ordem; c++) {
+                    Console.Write("Elemento [" + l + ", " + c + "]: ");
+                    matriz[l,c] = int.Parse(Console.ReadLine());
+                    if (matriz[l,c] < 0) {
+                        qtdeNegativos++;
+                    }
+                }
+            }
+
+            Console.WriteLine("");
+            Console.WriteLine("DIAGONAL PRINCIPAL: ");
+            for (l = 0; l < ordem; l++) {
+                for (c = 0; c < ordem; c++) {
+                    if (c == l) {
+                        Console.Write(matriz[l,c] + " ");
+                    }
+                }
+            }
+
+            Console.WriteLine("\n");
+            Console.WriteLine("QUANTIDADE DE NEGATIVOS = " + qtdeNegativos + "\n");
+        }
+    }
+    class Comerciante {
+        static void Nineteenth(string[] args) {
             CultureInfo CI = CultureInfo.InvariantCulture;
 
             int v, i, c = 0, lAbaixo = 0, lEntre = 0, lAcima = 0;
@@ -48,7 +190,7 @@ namespace Exercicios {
             }
 
             Console.WriteLine("");
-            Console.WriteLine("RELATORIO");
+            Console.WriteLine("RELATORIO: ");
             Console.WriteLine("Lucro abaixo de 10%: " + lAbaixo);
             Console.WriteLine("Lucro entre 10%% e 20%: " + lEntre);
             Console.WriteLine("Lucro acima de 20%: " + lAcima);
