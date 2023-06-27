@@ -1,0 +1,16 @@
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe.config
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.pdb
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.AssemblyReference.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.SuggestedBindingRedirects.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.CoreCompileInputs.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.exe
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.pdb
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe.config
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.pdb
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.AssemblyReference.cache
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.SuggestedBindingRedirects.cache
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.CoreCompileInputs.cache
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.exe
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.pdb

@@ -43,11 +43,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="estruCondicional\Baskara.cs" />
+    <Compile Include="estruCondicional\Dardo.cs" />
+    <Compile Include="estruCondicional\Temperatura.cs" />
+    <Compile Include="estruRepetitivas\enquanto\Combustivel.cs" />
+    <Compile Include="estruRepetitivas\enquanto\Crescente.cs" />
+    <Compile Include="estruRepetitivas\enquanto\SenhaFixa.cs" />
+    <Compile Include="estruRepetitivas\enquanto\SenhaFixa2.cs" />
+    <Compile Include="estruRepetitivas\para\DentroFora.cs" />
+    <Compile Include="estruRepetitivas\para\Experiencias.cs" />
+    <Compile Include="estruRepetitivas\para\Tabuada.cs" />
+    <Compile Include="estruSequencial\Idades.cs" />
+    <Compile Include="estruSequencial\Medidas.cs" />
+    <Compile Include="estruCondicional\Notas.cs" />
+    <Compile Include="estruSequencial\Retangulo.cs" />
+    <Compile Include="matrizes\DiagonalNegativos.cs" />
+    <Compile Include="matrizes\MatrizGeral.cs" />
+    <Compile Include="matrizes\NegativosMatriz.cs" />
+    <Compile Include="PrimeiroPrograma.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vetores\Alturas.cs" />
+    <Compile Include="vetores\Comerciante.cs" />
+    <Compile Include="vetores\MaisVelho.cs" />
+    <Compile Include="vetores\Negativos.cs" />
+    <Compile Include="vetores\SomaVetores.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
