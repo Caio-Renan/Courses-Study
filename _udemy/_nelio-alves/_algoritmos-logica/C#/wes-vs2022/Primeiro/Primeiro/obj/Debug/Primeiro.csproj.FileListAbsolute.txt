@@ -1,0 +1,8 @@
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\bin\Debug\Primeiro.exe.config
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\bin\Debug\Primeiro.exe
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\bin\Debug\Primeiro.pdb
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\obj\Debug\Primeiro.csproj.AssemblyReference.cache
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\obj\Debug\Primeiro.csproj.SuggestedBindingRedirects.cache
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\obj\Debug\Primeiro.csproj.CoreCompileInputs.cache
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\obj\Debug\Primeiro.exe
+C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\Primeiro\Primeiro\obj\Debug\Primeiro.pdb
