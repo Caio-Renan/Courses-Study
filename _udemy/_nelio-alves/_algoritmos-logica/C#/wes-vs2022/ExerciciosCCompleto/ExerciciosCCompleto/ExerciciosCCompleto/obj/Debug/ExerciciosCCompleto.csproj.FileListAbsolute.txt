@@ -1,0 +1,8 @@
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe.config
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.pdb
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.AssemblyReference.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.SuggestedBindingRedirects.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.csproj.CoreCompileInputs.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.exe
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_algoritmos-logica\C#\wes-vs2022\ExerciciosCCompleto\ExerciciosCCompleto\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.pdb
