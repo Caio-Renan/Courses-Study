@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExerciciosCCompleto.exercicios.secao4.classe_objeto {
     internal class Produto8 {
+        //Esse está organizado de maneira mais adequada, só não sei quanto o CI.
         CultureInfo CI = CultureInfo.InvariantCulture;
         
         private string _nome;
