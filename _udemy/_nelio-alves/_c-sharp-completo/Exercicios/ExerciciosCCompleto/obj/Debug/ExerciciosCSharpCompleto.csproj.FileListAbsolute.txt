@@ -6,3 +6,11 @@ C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-compl
 C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCSharpCompleto.csproj.CoreCompileInputs.cache
 C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.exe
 C:\Users\CaioR\Documents\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.pdb
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe.config
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.exe
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\bin\Debug\ExerciciosCCompleto.pdb
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCSharpCompleto.csproj.AssemblyReference.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCSharpCompleto.csproj.SuggestedBindingRedirects.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCSharpCompleto.csproj.CoreCompileInputs.cache
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.exe
+D:\Renan\GitHub\Courses-Study\_udemy\_nelio-alves\_c-sharp-completo\Exercicios\ExerciciosCCompleto\obj\Debug\ExerciciosCCompleto.pdb

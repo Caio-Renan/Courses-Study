@@ -36,7 +36,6 @@ namespace ExerciciosCCompleto.exercicios.secao4.classe_objeto {
         public Produto6(string nome, double preco) {
             _nome = nome;
             _preco = preco;
-            _quantidade = 0;//Essa parte é desnecessária.
         }
 
         public Produto6() {

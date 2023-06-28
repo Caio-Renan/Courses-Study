@@ -7,13 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ExerciciosCCompleto.exercicios.secao4 {
-    internal class Estoque7 {
+    internal class Estoque6 {
         //static void Main(string[] args) {
-        //    Produto7 produto = new Produto7("TV", 2500, 10);
+        //    Produto6 produto = new Produto6("TV", 500, 10);
 
-        //    produto.Nome = "TV Samsung";
+        //    produto.SetNome("TV Samsung");
 
-        //    Console.WriteLine(produto.Nome + ", R$" + produto.Preco + "\n");
+        //    Console.WriteLine(produto.GetNome() + ", R$" + produto.GetPreco() + "\n");
         //}
     }
 }
