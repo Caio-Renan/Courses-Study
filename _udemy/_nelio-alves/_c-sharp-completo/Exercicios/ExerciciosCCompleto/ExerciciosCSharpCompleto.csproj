@@ -44,24 +44,43 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="exercicios\secao4\AumentoSalarial.cs" />
+    <Compile Include="exercicios\secao4\classe_objeto\CalcRaio.cs" />
+    <Compile Include="exercicios\secao4\classe_objeto\ConversorDeMoeda.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Funcionario2.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Retangulo.cs" />
     <Compile Include="exercicios\secao4\DadosRetangulo.cs" />
+    <Compile Include="exercicios\secao4\DolarReal.cs" />
     <Compile Include="exercicios\secao4\Estoque.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Formulario.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Produto.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Funcionario.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Triangulo2 .cs" />
     <Compile Include="exercicios\secao4\MaisVelha.cs" />
+    <Compile Include="exercicios\secao4\classe_objeto\ResulTrim.cs" />
+    <Compile Include="exercicios\secao4\NotasTrimestre.cs" />
+    <Compile Include="exercicios\secao4\Raio.cs" />
     <Compile Include="exercicios\secao4\SalarioMedio.cs" />
     <Compile Include="exercicios\secao4\AreaTrianguloPOO2 .cs" />
     <Compile Include="exercicios\secao4\AreaTrianguloPOO.cs" />
     <Compile Include="exercicios\secao4\TrianguloSemPOO.cs" />
+    <Compile Include="exercicios\secao5\classe_objeto\Produto7.cs" />
+    <Compile Include="exercicios\secao5\classe_objeto\Produto6.cs" />
+    <Compile Include="exercicios\secao5\classe_objeto\Produto5.cs" />
+    <Compile Include="exercicios\secao5\classe_objeto\Produto3.cs" />
+    <Compile Include="exercicios\secao5\classe_objeto\Produto2.cs" />
+    <Compile Include="exercicios\secao5\classe_objeto\Produto.cs" />
+    <Compile Include="exercicios\secao5\Estoque6.cs" />
+    <Compile Include="exercicios\secao5\Estoque5.cs" />
+    <Compile Include="exercicios\secao5\Estoque4.cs" />
+    <Compile Include="exercicios\secao5\Estoque3.cs" />
+    <Compile Include="exercicios\secao5\Estoque2.cs" />
+    <Compile Include="exercicios\secao5\Estoque.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Triangulo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

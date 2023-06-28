@@ -11,19 +11,17 @@ namespace ExerciciosCCompleto.exercicios.secao4.classe_objeto {
         public string Nome;
         public double SalarioBruto, Imposto;
 
-        static double SalarioAtual = 0;
         public double SalarioLiquido() {
-            SalarioAtual = SalarioBruto - Imposto;
-            return SalarioAtual;
+            return SalarioBruto - Imposto;
         }
 
-        public double AumentarSalario(double porcentagem) {
-            SalarioAtual = SalarioBruto * (1 + (porcentagem / 100)) - Imposto;
-            return SalarioAtual;
+        public void AumentarSalario(double porcentagem) {
+            SalarioBruto = SalarioBruto * (1 + (porcentagem / 100));
         }
 
         public override string ToString() {
-            return Nome + ", R$" + SalarioAtual.ToString("F2", CI);
+            return Nome + ", R$" + SalarioLiquido().ToString("F2", CI);
         }
     }
+    //É interessante que ao ativar a função AumentarSalario, o valor de SalarioBruto muda globalmente.
 }

@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace ExerciciosCCompleto.exercicios.secao4.classe_objeto {
     internal class Retangulo {
-        CultureInfo CI = CultureInfo.InvariantCulture;
         public double Largura;
         public double Altura;
 

@@ -8,28 +8,27 @@ using System.Threading.Tasks;
 
 namespace ExerciciosCCompleto.exercicios.secao4 {
     internal class AumentoSalarial {
-        static void Main(string[] args) {
-            CultureInfo CI = CultureInfo.InvariantCulture;
-            Funcionario2 funcionario;
-            funcionario = new Funcionario2();
+        //static void Main(string[] args) {
+        //    CultureInfo CI = CultureInfo.InvariantCulture;
+        //    Funcionario2 funcionario;
+        //    funcionario = new Funcionario2();
 
-            Console.Write("Nome: ");
-            funcionario.Nome = Console.ReadLine();
-            Console.Write("Salario bruto: ");
-            funcionario.SalarioBruto = double.Parse(Console.ReadLine(), CI);
-            Console.Write("Imposto: ");
-            funcionario.Imposto = double.Parse(Console.ReadLine(), CI);
+        //    Console.Write("Nome: ");
+        //    funcionario.Nome = Console.ReadLine();
+        //    Console.Write("Salario bruto: ");
+        //    funcionario.SalarioBruto = double.Parse(Console.ReadLine(), CI);
+        //    Console.Write("Imposto: ");
+        //    funcionario.Imposto = double.Parse(Console.ReadLine(), CI);
 
-            Console.WriteLine("");
-            Console.WriteLine("Funcionario: " + funcionario + "\n");
+        //    Console.WriteLine("");
+        //    Console.WriteLine("Funcionario: " + funcionario + "\n");
 
-            Console.Write("Digite a porcentagem para aumentar o salario: ");
-            double porcentagem;
-            porcentagem = double.Parse(Console.ReadLine(), CI);
+        //    Console.Write("Digite a porcentagem para aumentar o salario: ");
+        //    double porcentagem = double.Parse(Console.ReadLine(), CI);
+        //    funcionario.AumentarSalario(porcentagem);
 
-
-            Console.WriteLine("");
-            Console.Write("Dados atualizados: " + funcionario);
-        }
+        //    Console.WriteLine("");
+        //    Console.WriteLine("Dados atualizados: " + funcionario + "\n");
+        //}
     }
 }
