@@ -7,29 +7,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ExerciciosCCompleto.exercicios.secao4 {
-    internal class Estoque4 {
+    internal class Estoque3 {
         //static void Main(string[] args) {
         //    CultureInfo CI = CultureInfo.InvariantCulture;
-        //    Produto4 produto, produto2;
+        //    Produto3 produto;
 
         //    Console.WriteLine("Entre os dados do produto: ");
         //    Console.Write("Nome: ");
         //    string nome = Console.ReadLine();
         //    Console.Write("Preco: ");
         //    double preco = double.Parse(Console.ReadLine(), CI);
-        //    Console.Write("Quantidade no estoque: ");
-        //    int quantidade = int.Parse(Console.ReadLine());
 
-        //    produto = new Produto4(nome, preco, quantidade);
-        //    produto2 = new Produto4 {
-        //        Nome = "TV Samsung",
-        //        Preco = 2500,
-        //        Quantidade = 20
-        //    };
+        //    produto = new Produto3(nome, preco);
 
-        //    Console.WriteLine("\nDados dos produtos: \n" + produto + "\n" + produto2 + "\n");
+        //    Console.WriteLine("\nDados do produto: " + produto + "\n");
         //    Console.Write("Digite o numero de produtos a ser adicionado ao estoque: ");
-        //    quantidade = int.Parse(Console.ReadLine());
+        //    int quantidade = int.Parse(Console.ReadLine());
         //    produto.AdicionarProdutos(quantidade);
 
         //    Console.WriteLine("");

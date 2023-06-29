@@ -6,16 +6,26 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ExerciciosCCompleto.exercicios.secao4.classe_objeto {
-    internal class Produto2 {
+    internal class Produto4 {
         CultureInfo CI = CultureInfo.InvariantCulture;
         public string Nome;
         public double Preco;
         public int Quantidade;
 
-        public Produto2(string nome, double preco, int quantidade) {
+        public Produto4(string nome, double preco, int quantidade) {
             Nome = nome;
             Preco = preco;
             Quantidade = quantidade;
+        }
+
+        public Produto4(string nome, double preco) {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = 0;//Essa parte é desnecessária.
+        }
+
+        public Produto4() {
+
         }
 
         public double ValorTotalEmEstoque() {

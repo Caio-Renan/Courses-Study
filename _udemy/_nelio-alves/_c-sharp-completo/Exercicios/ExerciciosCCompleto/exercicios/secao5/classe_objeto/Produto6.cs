@@ -6,40 +6,39 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ExerciciosCCompleto.exercicios.secao4.classe_objeto {
-    internal class Produto7 {
+    internal class Produto6 {
         CultureInfo CI = CultureInfo.InvariantCulture;
         private string _nome;
         private double _preco;
         private int _quantidade;
 
-        public string Nome {
-            get { return _nome; }
-            set {
-                if (value != null && value.Length > 1) {
-                    _nome = value;
-                }
+        public string GetNome() {
+            return _nome;
+        }
+        public void SetNome(string nome) {
+            if (nome != null && nome.Length > 1) {
+                _nome = nome;
             }
         }
-        public double Preco {
-            get { return _preco; }
+        public double GetPreco() {
+            return _preco;
         }
-        public int Quantidade {
-            get { return _quantidade; }
+        public int GetQuantidade() {
+            return _quantidade;
         }
 
-        public Produto7(string nome, double preco, int quantidade) {
+        public Produto6(string nome, double preco, int quantidade) {
             _nome = nome;
             _preco = preco;
             _quantidade = quantidade;
         }
 
-        public Produto7(string nome, double preco) {
+        public Produto6(string nome, double preco) {
             _nome = nome;
             _preco = preco;
-            _quantidade = 0;//Essa parte é desnecessária.
         }
 
-        public Produto7() {
+        public Produto6() {
 
         }
 
