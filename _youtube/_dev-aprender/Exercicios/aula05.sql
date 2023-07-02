@@ -47,4 +47,3 @@
 
     SELECT count(DISTINCT Size) -- RESULTADO:18
     FROM Production.Product;
-

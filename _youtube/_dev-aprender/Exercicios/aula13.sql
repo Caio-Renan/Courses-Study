@@ -38,9 +38,9 @@
     SELECT *
     FROM Person.Person;
 
-    SELECT FirstName, count(FirstName) AS "TotalFirstName"
+    SELECT MiddleName, count(MiddleName) AS "TotalFirstName"
     FROM Person.Person
-    GROUP BY FirstName;
+    GROUP BY MiddleName;
 
     SELECT Color, avg(listprice) AS "Média"
     FROM Production.Product

@@ -72,4 +72,3 @@
     SELECT FirstName -- RESULTADO: 132
     FROM Person.Person
     WHERE FirstName LIKE '%ro__';
-
