@@ -29,3 +29,7 @@
     ## 4.Temporais
     DATE - Armazena data no formato aaaa/mm/dd
     DATETIME - Armazena data e horas no formato aaaa/mm/dd:hh:mm:ss
+    DATETIME2 - Data e horas com adição de milisegundos no formado aaaa/mm/dd:hh:mm:ssssss
+    SMALLDATETIME - Data e hora nos respeitando o limite entre '1900-01-01:00:00:00' até '2079-06-06:23:59:59'
+    TIME - Horas, minutos, segundos e milisegundos respeitando o limite de '00:00:00.000000' to '23:59:59.999999'
+    DATETIMEOFFSET - Permite armazenar informações de data e horas incluindoo fuso horário
