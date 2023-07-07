@@ -84,10 +84,15 @@
     <Compile Include="exercicios\secao6\Calculo.cs" />
     <Compile Include="exercicios\secao6\classe_objeto\Aluguel.cs" />
     <Compile Include="exercicios\secao6\classe_objeto\Calculadora.cs" />
+    <Compile Include="exercicios\secao6\classe_objeto\Employee.cs" />
     <Compile Include="exercicios\secao6\classe_objeto\PontosCoord.cs" />
     <Compile Include="exercicios\secao6\classe_objeto\Produto9.cs" />
     <Compile Include="exercicios\secao6\Coordenadas.cs" />
     <Compile Include="exercicios\secao6\AprendendoLista.cs" />
+    <Compile Include="exercicios\secao6\ExercMatriz.cs" />
+    <Compile Include="exercicios\secao6\ExercMatriz2.cs" />
+    <Compile Include="exercicios\secao6\ListaAumentoSalarial.cs" />
+    <Compile Include="exercicios\secao6\Matriz.cs" />
     <Compile Include="exercicios\secao6\Nullable.cs" />
     <Compile Include="exercicios\secao6\PrecoMedio.cs" />
     <Compile Include="exercicios\secao6\QuartosOcupados.cs" />
