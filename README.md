@@ -12,3 +12,6 @@
 
 freeCodeCamp
 - [ ] Responsive Web Design (https://www.freecodecamp.org/learn/2022/responsive-web-design/).
+
+YouTube
+- [x] Curso SQL Completo 2022 [Iniciantes] + Desafios + Muita Prática (https://www.youtube.com/watch?v=G7bMwefn8RQ).
