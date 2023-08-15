@@ -96,6 +96,7 @@
     <Compile Include="exercicios\secao6\Nullable.cs" />
     <Compile Include="exercicios\secao6\PrecoMedio.cs" />
     <Compile Include="exercicios\secao6\QuartosOcupados.cs" />
+    <Compile Include="exercicios\secao6\teste.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="exercicios\secao4\classe_objeto\Triangulo.cs" />
   </ItemGroup>

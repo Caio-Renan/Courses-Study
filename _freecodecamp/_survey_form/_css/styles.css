@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
 body::before {
     content: '';
     position: fixed;
@@ -6,51 +8,121 @@ body::before {
     z-index: -1;
     width: 100%;
     height: 100%;
+    background: #1b1b32;
     background-image: linear-gradient(115deg, rgba(58,58,158,0.8), rgba(136,136,206,0.7)), url(../_images/survey-form-background.jpeg);
     background-size: cover; /* Para que isso serviu? */
     background-repeat: no-repeat;
     background-position: center;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 1.4;
     color: white;
-}
-
-* {
-    box-sizing: border-box;
+    
 }
 
 #surveyForm {
     background-color: #272745;
     padding: 40px;
     font-size: 18px;
+    min-height: 1424.91px;
+    min-width: 720px;
 }
 
 #container {
     display: block;
-    margin: 0 auto;
+    margin: 50px 559.5px 0;
     max-width: 720px;
 }
 
-#container, label, input {
+/* #container, label, input {
     border: 1px solid green;
+} */
+
+header {
+    margin: 0 0 30px;
+    padding: 0px 10px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 header h1, header p {
     text-align: center;
+    margin: 0 0 0.5rem;
 }
-
+/* 
 form p {
     margin: 0;
     padding: 0;
-}
+} */
 
 label:not([type=checkbox]), input:not([type=radio], [type=checkbox]), textarea {
     width: 100%;
+}
+
+/* label:not([type=checkbox]) {
+    padding: 4px;
+} */
+
+
+/* label:not([type=checkbox]), .group {
+    padding: 4px;
+} */
+
+input, button {
+    font-size: 16px;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+select, textarea, .info {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+
+.info {
+    font-size: 14.4px;
+    margin: 0 0 0 4px;
+    color: #E4E4E4;
+}
+
+#surveyForm, input, button {
+    border-radius: 0.25rem;
+}
+
+.group, .tips, [for=comments], [for="favoriteFeature"], .recommendation, label:not([for="recommendation"], [for="tips"]) {
+    padding: 4px;
+}
+
+[type=checkbox], [type=radio] {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+}
+
+[for=comments] p {
+    margin: 0 0 8px;
 }
 
 label:not([for=recommendation], [for=tips]) {
@@ -60,11 +132,11 @@ label:not([for=recommendation], [for=tips]) {
 
 fieldset {
     margin: 0;
-    padding: 0;
+    padding: 4px;
     border: none;
 }
 
-.recommendation, .tips {
+.recommendation, .tips, .group, .basic-info {
     margin-bottom: 20px;
 }
 
@@ -72,9 +144,9 @@ fieldset {
     display: inline-block;
 }
 
-fieldset:last-child, form p {
+/* fieldset:last-child, form p {
     margin-bottom: 20px;
-}
+} */
 
 input, select {
     padding: 6px 12px;
@@ -82,7 +154,6 @@ input, select {
 
 input, select, [for=recommendation], [for=tips] {
     margin-top: 8px;
-    font-size: 16px;
 }
 
 fieldset {
@@ -97,12 +168,15 @@ select {
     color: #8e8e8e;
 }
 
+label {
+    font-size: 18px;
+}
+
 textarea {
     resize: vertical;
-    padding: 8px;
-    margin: 8px 0 0 0;
+    padding: 10px;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+   
 }
 
 button {
@@ -110,7 +184,8 @@ button {
     background-color: #37AF65;
     color: white;
     border: #37AF65;
-    padding: 16px 0;
+    padding: 12px;
     font-size: 16px;
     cursor: pointer;
+  
 }
